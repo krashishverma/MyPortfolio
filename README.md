@@ -1,55 +1,40 @@
-<div align="center">
-  
-  ![GitHub repo size](https://img.shields.io/github/repo-size/osamajavaid/portfolio)
-  ![GitHub stars](https://img.shields.io/github/stars/osamajavaid/portfolio?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/osamajavaid/portfolio?style=social)
-  [![Twitter Follow](https://img.shields.io/twitter/follow/iosamajavaid?style=social)](https://twitter.com/intent/follow?screen_name=iosamajavaid)
+# Ashish Kumar Verma's Portfolio
 
-  <br />
-  <br />
-  
-  <img src="./public/readme-images/moj.png" />
+Welcome to my personal portfolio! This project showcases my skills, expertise, projects, and achievements as a full-stack developer and designer. Feel free to explore and get to know more about my professional journey.
 
-  <h2 align="center">Muhammad Osama Javaid - Personal portfolio</h2>
+## 🔗 Live Portfolio
 
-This website is fully responsive personal portfolio, <br />Responsive for all devices, built using Nextjs, TailwindCSS only.
+Visit my portfolio here: [Ashish Kumar Verma's Portfolio](https://your-portfolio-link.com)
 
-<a href="https://osamajavaid.vercel.app/"><strong>➥ Live Demo</strong></a>
+---
 
-</div>
+## 🚀 Features
 
-<br />
+- **About Me**: Learn about my professional background, expertise, and interests.
+- **Skills**: A detailed overview of my technical proficiencies, including MERN stack, UI/UX design, and open-source contributions.
+- **Projects**: A collection of my key projects, complete with descriptions, live demos, and source code links.
+- **Achievements**: Highlights of my professional milestones and certifications.
+- **Contact**: Easy access to connect with me via email or social platforms.
 
-### Demo Screeshots
+---
 
-![Osama Portfolio Desktop Demo](./public/readme-images/portfolio.png "Desktop Demo")
+## 💻 Technologies Used
 
-### Prerequisites
+This portfolio is built using the following technologies:
 
-Before you begin, ensure you have met the following requirements:
+- **Frontend**: React.js, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB (if applicable)
+- **Design Tools**: Figma, Adobe XD
+- **Version Control**: Git and GitHub
+- **Deployment**: Vercel/Netlify (or specify your hosting platform)
 
-- [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+---
 
-### Run Locally
+## 🛠️ Installation
 
-To run **portfolio** locally, run this command on your git bash:
+If you'd like to run this project locally, follow these steps:
 
-Linux and macOS:
-
-```bash
-sudo git clone https://github.com/osamajavaid/portfolio.git
-```
-
-Windows:
-
-```bash
-git clone https://github.com/osamajavaid/portfolio.git
-```
-
-### Contact
-
-If you want to contact with me you can reach me at [X](https://www.x.com/iosamajavaid).
-
-### License
-
-This project is **free to use** and does not contains any license.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/your-portfolio-repo.git

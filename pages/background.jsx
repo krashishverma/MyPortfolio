@@ -33,7 +33,7 @@ function Background() {
                 </div>
                 <div className="order-1 md:order-2">
                     <div className="flex flex-col gap-y-4 md:ml-12">
-                        <div className=" md:pt-0 pt-4 text-xl text-Snow font-semibold">Experience</div>
+                        <div className=" md:pt-0 pt-4 text-xl text-Snow font-semibold">Achievement</div>
 
                         {isLoading ?
                             [1, 2, 3].map(() => (

@@ -1,11 +1,11 @@
-export const NAME = 'Muhammad Osama Javaid';
+export const NAME = 'Ashish Kumar Verma';
 
 export const DESIGNATION = `MERN Stack Developer | Open Source Contributor | Tech Blogger`;
 
 export const DETAILS = {
-  Residence: 'Pakistan',
-  City: 'Peshawar',
-  Age: '23',
+  Residence: 'India',
+  City: 'Banglore',
+  Age: '22',
 };
 
 export const SKILLS = [
@@ -37,31 +37,19 @@ export const TECH_STACK = [
   'NextJS',
   'TypeScript',
   'NodeJS',
-  'Redux',
-  'Zustand',
   'CSS',
-  'SCSS',
-  'TailwindCSS',
-  'Ant Design',
-  'Material UI',
-  'Next UI',
   'REST API',
   'MongoDB',
   'MySQL',
   'Git',
-  'GitHub',
-  'Jira',
-  'Figma',
-  'Adobe XD',
+  'GitHub'
 ];
 
 export const CONTACTS = {
-  EMAIL: 'iosamajavaid@gmail.com',
-  PHONE: '+923159591822',
+  EMAIL: 'kr.ashishkumarverma@gmail.com',
+  PHONE: '+919919885781',
 };
 export const SOCIAL_LINKS = {
-  GITHUB: 'https://github.com/osamajavaid',
-  LINKEDIN: 'https://www.linkedin.com/in/iosamajavaid/',
-  TWITTER: 'https://twitter.com/iosamajavaid',
-  FACEBOOK: 'https://www.facebook.com/iosamajavaid',
+  GITHUB: 'https://github.com/krashishverma',
+  LINKEDIN: 'https://www.linkedin.com/in/ashish-verma-2594a528a/',
 };
