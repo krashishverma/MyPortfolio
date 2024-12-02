@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://krashishverma.github.io/Myportfolio",
+  "homepage": "https://krashishverma.github.io/MyPortfolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
