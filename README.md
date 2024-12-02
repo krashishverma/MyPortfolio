@@ -4,7 +4,8 @@ Welcome to my personal portfolio! This project showcases my skills, expertise, p
 
 ## 🔗 Live Portfolio
 
-[My Portfolio](https://MyPortfolio.live/)
+[My Portfolio](https://krashishverma.github.io/MyPortfolio)
+
 
 
 ---
