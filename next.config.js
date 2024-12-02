@@ -1,10 +1,11 @@
 module.exports = {
-  eslint: {
-    // Warning: This allows production builds to successfully complete even if
-    // your project has ESLint errors.
-    ignoreDuringBuilds: true,
+  output: 'export', // Set for static export
+  basePath: '/MyPortfolio', // Use your repository name as the base path
+  trailingSlash: true, // Ensure proper paths for GitHub Pages
+  images: {
+    unoptimized: true, // Disable Image Optimization for `next export`
   },
-  output: 'export', // This is an example of setting Next.js to static export if needed
-  basePath: '/MyPortfolio', // Set this if you want to deploy on GitHub Pages with a base path
-  trailingSlash: true, // Ensure URLs end with a slash
-}
+  eslint: {
+    ignoreDuringBuilds: true, // Allow production builds to succeed despite ESLint errors
+  },
+};
