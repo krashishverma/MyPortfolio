@@ -19,13 +19,13 @@ module.exports = {
         Snow: "#ffffff",
       },
       fontFamily: {
-        'cascadia-normal': ['cascadia-normal'],
-        'circular': ['circular-normal', 'sans-serif'],
-        'circular-light': ['circular-light', 'sans-serif'],
-        'circular-normal': ['circular-normal', 'sans-serif'],
-        'circular-medium': ['circular-medium', 'sans-serif'],
-        'circular-bold': ['circular-bold', 'sans-serif'],
-
+        'cascadia': ['var(--font-cascadia)', 'monospace'],
+        'circular': ['var(--font-circular-normal)', 'sans-serif'],
+        'circular-light': ['var(--font-circular-light)', 'sans-serif'],
+        'circular-normal': ['var(--font-circular-normal)', 'sans-serif'],
+        'circular-medium': ['var(--font-circular-medium)', 'sans-serif'],
+        'circular-bold': ['var(--font-circular-bold)', 'sans-serif'],
+        'inter': ['var(--font-inter)', 'sans-serif'],
       }
     },
   },

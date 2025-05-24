@@ -1,14 +1,21 @@
 import ExpertiseCard from "./ExpertiseCard"
-import { useQuery } from "react-query";
-import axios from "axios";
-import ParagraphSkeleton from "../../Common/ParagraphSkeleton";
+import { useEffect, useState } from "react";
+import SimpleSkeleton from "../../Common/SimpleSkeleton";
+import expertiseData from "../../../pages/api/expertise";
 
 const MyExpertise = () => {
+    const [isLoading, setIsLoading] = useState(true);
+    const [data, setData] = useState([]);
 
-    const { isLoading, error, data } = useQuery('expertise', () =>
-        axios.get('api/expertise')
-            .then(({ data }) => data)
-            .catch(error => console.error('Error fetching testimonials:', error)))
+    useEffect(() => {
+        // Simulate loading for a better UX
+        const timer = setTimeout(() => {
+            setData(expertiseData);
+            setIsLoading(false);
+        }, 800);
+        
+        return () => clearTimeout(timer);
+    }, []);
 
     return (
         <>
@@ -17,8 +24,8 @@ const MyExpertise = () => {
 
                 {
                     isLoading ?
-                        [1, 2, 3, 4, 5, 6].map(() => (
-                            <ParagraphSkeleton className={"space-y-2 p-8"} />
+                        [1, 2, 3, 4, 5, 6].map((item, index) => (
+                            <SimpleSkeleton key={`skeleton-${index}`} className="space-y-2 p-8" />
                         ))
                         :
                         data?.map((data, key) => (

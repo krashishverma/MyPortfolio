@@ -4,7 +4,7 @@ const PortfolioCard = ({ data }) => {
     return (
         <div className="card_stylings overflow-hidden h-full">
             <img
-                src={data?.image}
+                src={`/projects/${data?.image.split('/').pop()}`}
                 alt="portfolio img"
                 className="w-full object-cover opacity-30 h-32 sm:h-48 md:h-64"
             />

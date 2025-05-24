@@ -1,22 +1,23 @@
-import React from 'react'
-import CardLayout from './CardLayout'
+import React from 'react';
+import CardLayout from './CardLayout';
 
-const ParagraphSkeleton = ({ className }) => {
-    return (
+const ParagraphSkeleton = ({ className = '', lines = 5 }) => {
+  return (
+    <CardLayout>
+      <div className={`animate-pulse ${className}`}>
+        {/* Header */}
+        <div className="h-4 bg-slate-700 rounded w-3/4 mb-4"></div>
+        
+        {/* Lines */}
+        {[...Array(lines)].map((_, i) => (
+          <div 
+            key={i} 
+            className={`h-2 bg-slate-700 rounded mt-2 ${i % 3 === 0 ? 'w-full' : i % 3 === 1 ? 'w-5/6' : 'w-4/6'}`}
+          ></div>
+        ))}
+      </div>
+    </CardLayout>
+  );
+};
 
-        <CardLayout>
-            <div role="status" class={`${className} max-w-full card_stylings animate-pulse bg-EveningBlack self-center`}>
-                <div class="h-2.5 rounded-full bg-Green/20 w-48 mb-4"></div>
-                <div class="h-2 rounded-full bg-Green/20 max-w-[365px] mb-2.5"></div>
-                <div class="h-2 rounded-full bg-Green/20 mb-2.5"></div>
-                <div class="h-2 rounded-full bg-Green/20 max-w-[330px] mb-2.5"></div>
-                <div class="h-2 rounded-full bg-Green/20 max-w-[400px] mb-2.5"></div>
-                <div class="h-2 rounded-full bg-Green/20 max-w-[360px]"></div>
-                <span class="sr-only">Loading...</span>
-            </div>
-        </CardLayout>
-
-    )
-}
-
-export default ParagraphSkeleton
+export default ParagraphSkeleton;

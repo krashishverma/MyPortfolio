@@ -21,6 +21,10 @@ const expertise = [
     },
 ]
 
-export default function handler(req, res) {
+// Export the data directly for client-side imports
+export default expertise;
+
+// Keep the API handler for server-side rendering
+export function handler(req, res) {
     res.status(200).json(expertise)
 }

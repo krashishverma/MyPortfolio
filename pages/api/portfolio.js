@@ -3,7 +3,7 @@ const portfolio = [
         id: 0,
         projectName: "Jobify",
         url: "https://jobify.live",
-        image: "projects/jobify.png",
+        image: "jobify.png",
         projectDetail: "Jobify is your ultimate job search companion, connecting you with top employers and opportunities that match your skills, preferences, and career aspirations.",
         technologiesUsed: [
             {
@@ -228,6 +228,8 @@ const portfolio = [
     //     ]
     // },
 ]
-export default function handler(req, res) {
-    res.status(200).json(portfolio)
+export default portfolio;
+
+export function handler(req, res) {
+    res.status(200).json(portfolio);
 }

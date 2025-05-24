@@ -7,8 +7,8 @@ const Contact = () => {
     <div className='flex flex-col space-y-2 pt-6'>
       <div className='flex flex-col'>
         <span className='text-Snow text-xs font-bold'>Email Address</span>
-
-        <span className='text-xs text-gray-600' mailto>
+        {/* Remove the mailto attribute from span and use only Link */}
+        <span className='text-xs text-gray-600'>
           <Link href={`mailto:${CONTACTS.EMAIL}`}>{CONTACTS.EMAIL}</Link>
         </span>
       </div>
